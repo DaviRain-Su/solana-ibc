@@ -13,5 +13,6 @@ incremental = false
 codegen-units = 1
 
 [patch.crates-io]
+ibc = { git = "https://github.com/DaviRain-Su/ibc-rs.git", branch = "davi/dev" }
 der = { git = "https://github.com/DaviRain-Su/formats.git", branch = "davi/dev" }
 # num-bigint-dig = { git = "https://github.com/DaviRain-Su/num-bigint.git", branch = "davi/dev" }

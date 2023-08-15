@@ -17,5 +17,5 @@ default = []
 
 [dependencies]
 anchor-lang = "0.28.0"
-ibc = { version = "0.44.1", git = "https://github.com/DaviRain-Su/ibc-rs.git", branch = "davi/dev" }
-ibc-proto = "0.32.1"
+ibc = { version = "0.44.1", default-features = false }
+ibc-proto = { version = "0.32.1", default-features = false }
